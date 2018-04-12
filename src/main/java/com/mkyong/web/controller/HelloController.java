@@ -16,6 +16,7 @@ public class HelloController {
 		model.addObject("title", "Spring Security Custom Login Form");
 		model.addObject("message", "This is welcome page!");
 		model.setViewName("hello");
+		System.out.println("just for testing purpose");
 		return model;
 
 	}
