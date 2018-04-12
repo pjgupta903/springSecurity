@@ -17,6 +17,7 @@ public class HelloController {
 		model.addObject("message", "This is welcome page!");
 		model.setViewName("hello");
 		System.out.println("just for testing purpose");
+		System.out.println("just for fun testing purpose");
 		return model;
 
 	}
