@@ -18,6 +18,7 @@ public class HelloController {
 		model.setViewName("hello");
 		System.out.println("just for testing purpose");
 		System.out.println("just for fun testing purpose");
+		System.out.println("just for fun and fun testing purpose");
 		return model;
 
 	}
